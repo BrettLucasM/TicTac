@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <title>Chat Box</title><!--Title of each individual page-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <link rel='stylesheet' type="text/css" href='../assets/index.css' />
+
+
+</head>
+
+<body>
+<main>
+
+    <div id="content">
+    <%- include('../partials/nav.ejs') %>
+        <h2 class="para"><em>Tic Tac Toe</em></h2>
+        <p class="para2">Tic Tac Toe is a game of wit and strategy, oddly enough if it is played correctly then neither parties would win.
+            An early variation of tic-tac-toe was played in the Roman Empire, around the first century BC.
+            It was called terni lapilli (three pebbles at a time) and instead of having any number of pieces, each player only had three,
+            thus they had to move them around to empty spaces to keep playing. The game's grid markings have been found chalked all over Rome.
+            Another closely related ancient game is three men's morris which is also played on a simple grid and requires three pieces in a row
+            to finish, and Picaria, a game of the Puebloans.</p>
+
+        <p class="para2">See if you can beat my computer in a simple game of Tic Tac Toe! Enjoy.</p>
+
+        <div class="center">
+        <button class="button" type="button">Play Game</button>
+        </div>
+
+        <table>
+            <tr>
+                <th>
+                    <article>
+                        <h2>How to play Tic Tac Toe</h2>
+                        <hr>
+                        <iframe class="YT" src="https://www.youtube.com/embed/USEjXNCTvcc">
+                        </iframe>
+                    </article>
+                </th>
+                <th>
+                    <article>
+                        <h2><a href="https://aurosi.com/blog/the-history-of-tic-tac-toe-and-where-it-is-now/">More on the History of Tic Tac Toe</a></h2>
+                        <hr>
+                        <p class="article2">The early Roman version was known as terni lapilli, or three pebbles at a time. In the mid-1800s,
+                            Britain used the name noughts and crosses, with nought referring to the O’s (or zeros) used in the game.
+                            The phrase tick-tack-toe wasn’t used until the late 1800s, and there’s some findings that report it might have been
+                            used to describe a completely different game. </p>
+                        <img class="TicHis" src="../assets/images/History.jpg" alt="Tic Tac Toe">
+                    </article>
+                </th>
+                <th>
+                    <article>
+                        <h2><a href="https://www.pleacher.com/mp/puzzles/mgames/tictac.pdf">Game theory</a></h2>
+                        <p class="article3">Because tic tac toe is a game with a finite amount of possible grid positions and finite amount of ways to fill up the grid with
+                            different combinations of 5 Xs and 4 Os, this makes tic tac toe game that can be completely analyzed for a perfect strategy in which
+                            neither player wins, concluding in a draw.</p>
+                        <img class="TicHis2" src="../assets/images/GameTheory.png" alt="Tic Tac Toe">
+                    </article>
+                </th>
+            </tr>
+        </table>
+    </div>
+</main>
+
+
+
+</body>

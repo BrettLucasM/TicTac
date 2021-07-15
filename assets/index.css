@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+#content {
+    min-height: calc(100vh - 90px);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color:whitesmoke;
+}
+
+.topnav a.active {
+    background-color: darkgoldenrod;
+    color: white;
+}
+.TicGif{
+    width: 100%;
+    height: 780px;
+    margin: 0;
+    object-fit: initial;
+}
+.para2{
+    font-family: "Arial Black", serif;
+    color: black;
+    text-align: center;
+    font-size: large;
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.para{
+    text-align: center;
+}
+
+.button{
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    height: 70px;
+    width: 110px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+article{
+    border: solid black;
+    background-color: darkgoldenrod;
+}
+.YT{
+    width: 550px;
+    height: 520px;
+}
+.article2{
+    height: 100px;
+    width: 550px;
+    text-align: center;
+}
+.TicHis{
+    height: 400px;
+    width: 550px;
+}
+
+.article3{
+    height: 100px;
+    width: 550px;
+    text-align: center;
+}
+.TicHis2{
+    height: 420px;
+    width: 550px;
+}
+
