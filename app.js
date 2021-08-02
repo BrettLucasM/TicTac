@@ -15,7 +15,15 @@ app.get('/', function (req, res) {
     console.log('Request was made: ' + req.url);
 });
 
-app.listen(8084, function(){
+app.get('/TicTacGame', function (req, res) {
 
-    console.log("Listening to Port 8084..")
+    res.render('TicTac');
+    console.log('Request was made: ' + req.url);
+});
+
+
+
+app.listen(8082, function(){
+
+    console.log("Listening to Port 8082..")
 });

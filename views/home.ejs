@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 
-    <title>Chat Box</title><!--Title of each individual page-->
+    <title>Tic Tac Toe</title><!--Title of each individual page-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
@@ -17,18 +17,19 @@
 
     <div id="content">
     <%- include('../partials/nav.ejs') %>
+        <img class="TicGif" src="../assets/images/TTT2.jpg" alt="Tic Tac Toe">
         <h2 class="para"><em>Tic Tac Toe</em></h2>
-        <p class="para2">Tic Tac Toe is a game of wit and strategy, oddly enough if it is played correctly then neither parties would win.
+        <p class="para3">Tic Tac Toe is a game of wit and strategy, oddly enough if it is played correctly then neither parties would win.
             An early variation of tic-tac-toe was played in the Roman Empire, around the first century BC.
             It was called terni lapilli (three pebbles at a time) and instead of having any number of pieces, each player only had three,
             thus they had to move them around to empty spaces to keep playing. The game's grid markings have been found chalked all over Rome.
             Another closely related ancient game is three men's morris which is also played on a simple grid and requires three pieces in a row
             to finish, and Picaria, a game of the Puebloans.</p>
 
-        <p class="para2">See if you can beat my computer in a simple game of Tic Tac Toe! Enjoy.</p>
+        <p class="para3">See if you can beat my computer in a simple game of Tic Tac Toe! Enjoy.</p>
 
         <div class="center">
-        <button class="button" type="button">Play Game</button>
+        <button onclick="window.location.href='/TicTacGame'" class="button" type="button">Play Game</button>
         </div>
 
         <table>
@@ -54,7 +55,8 @@
                 </th>
                 <th>
                     <article>
-                        <h2><a href="https://www.pleacher.com/mp/puzzles/mgames/tictac.pdf">Game theory</a></h2>
+                        <h2><a href="https://www.pleacher.com/mp/puzzles/mgames/tictac.pdf">Game Theory</a></h2>
+                        <hr>
                         <p class="article3">Because tic tac toe is a game with a finite amount of possible grid positions and finite amount of ways to fill up the grid with
                             different combinations of 5 Xs and 4 Os, this makes tic tac toe game that can be completely analyzed for a perfect strategy in which
                             neither player wins, concluding in a draw.</p>
